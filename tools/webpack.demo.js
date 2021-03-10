@@ -20,7 +20,7 @@ const webpackConfig = {
   entry: './src/main.js',
   output: {
     path: path.resolve(process.cwd(), './dist/'),
-    publicPath: '/cloud-config/',
+    publicPath: '/manufacturing/',
     filename: isProd ? 'js/[name].[hash:7].js' : 'js/[name].js',
     chunkFilename: isProd ? 'js/[name].[hash:7].js' : 'js/[name].js',
   },
@@ -35,8 +35,8 @@ const webpackConfig = {
     open: true,
     // overlay: true,
     host: 'localhost',
-    port: 5010,
-    openPage: 'cloud-config/',
+    port: 5015,
+    openPage: 'manufacturing/',
     hot: true,
     // historyApiFallback: {
     //   index: '/'

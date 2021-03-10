@@ -1,7 +1,7 @@
 {
-  "name": "cloud-config-toolbox-ui",
-  "description": "UI for the dCloud Cloud Configuration Toolbox",
-  "version": "2021.2.25",
+  "name": "manufacturing-toolbox-ui",
+  "description": "UI for the dCloud Manufacturnig Demo Toolbox",
+  "version": "2021.3.10",
   "author": "Coty Condry <ccondry@cisco.com>",
   "main": "dist/js/index.common.js",
   "unpkg": "dist/js/index.js",
@@ -12,27 +12,23 @@
     "dist:test": "yarn dist && node tools/test.js",
     "lint": "eslint src --quiet --ext .js,.vue",
     "lint:fix": "eslint src --fix --ext .js,.vue",
-    "start": "cross-env NODE_ENV=development PLAY_ENV=true webpack-dev-server --config tools/webpack.demo.js"
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config tools/webpack.demo.js"
   },
   "keywords": [
     "cisco",
     "dcloud",
-    "contact-center",
-    "contact",
-    "center",
-    "pcce",
-    "uccx",
     "webex",
-    "cjp",
-    "toolbox"
+    "toolbox",
+    "manufacturing",
+    "demo"
   ],
   "homepage": "https://dcloud-collab-toolbox-rtp.cisco.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ccondry/cloud-config-toolbox-ui"
+    "url": "https://github.com/ccondry/manufacturing-toolbox-ui"
   },
   "bugs": {
-    "url": "https://github.com/ccondry/cloud-config-toolbox-ui/issues"
+    "url": "https://github.com/ccondry/manufacturing-toolbox-ui/issues"
   },
   "license": "MIT",
   "dependencies": {

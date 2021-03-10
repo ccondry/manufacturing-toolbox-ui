@@ -5,7 +5,7 @@ const app = express()
 const fs = require('fs')
 
 // serve files out of /dist
-app.use('/cloud-config/', express.static('dist'))
+app.use('/manufacturing/', express.static('dist'))
 // app.use('/css', express.static('dist/css'))
 // app.use('/js', express.static('dist/js'))
 

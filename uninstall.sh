@@ -1,8 +1,8 @@
 #!/bin/sh
-echo "removing cloud-config-toolbox-ui website files..."
-rm -rf /var/www/toolbox/cloud-config/*
+echo "removing manufacturing-toolbox-ui website files..."
+rm -rf /var/www/toolbox/manufacturing/*
 if [ $? -eq 0 ]; then
-  echo "successfully removed cloud-config-toolbox-ui website files."
+  echo "successfully removed manufacturing-toolbox-ui website files."
 else
-  echo "failed to remove cloud-config-toolbox-ui website files."
+  echo "failed to remove manufacturing-toolbox-ui website files."
 fi

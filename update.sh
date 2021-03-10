@@ -24,13 +24,13 @@ else
       yarn build
       if [ $? -eq 0 ]; then
         echo "yarn build successful. removing old www files..."
-        rm -rf /var/www/toolbox/cloud-config/*
+        rm -rf /var/www/toolbox/manufacturing/*
         echo "copying dist files to www folder..."
-        cp -rf dist/* /var/www/toolbox/cloud-config/
+        cp -rf dist/* /var/www/toolbox/manufacturing/
         if [ $? -eq 0 ]; then
-          echo "successfully installed cloud-config-toolbox-ui website files"
+          echo "successfully installed manufacturing-toolbox-ui website files"
         else
-          echo "failed to install cloud-config-toolbox-ui website files"
+          echo "failed to install manufacturing-toolbox-ui website files"
         fi
       else
         echo "yarn build failed. help me."

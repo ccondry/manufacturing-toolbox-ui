@@ -1,4 +1,4 @@
-# cloud-config-toolbox-ui
+# manufacturing-toolbox-ui
 The dCloud Colud Configuration web portal UI project. It is
 built on Vue.js 2.6 (including vue-router and vuex), using Webpack 4.
 
@@ -20,4 +20,4 @@ opening your browser javascript console and entering `localStorage.jwt`.
 
 ## Production
 ### Installation
-`./install.sh` to build and install to the /var/www/toolbox/cloud-config folder
+`./install.sh` to build and install to the /var/www/toolbox/manufacturing folder
