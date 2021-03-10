@@ -1,10 +1,7 @@
 <template>
   <panel title="QR" aria-id="qr">
-    <p>
-      Test
-    </p>
     <div style="display: flex; justify-content: space-around;">
-      <img :src="whatsappQrUrl">
+      <img :src="url">
     </div>
   </panel>
 </template>
@@ -13,7 +10,7 @@
 export default {
   data () {
     return {
-      whatsappQrUrl: 'https://mm-static.cxdemo.net/whatsapp-qr.png'
+      url: 'https://mm-static.cxdemo.net/manufacturing-qr.png'
     }
   }
 }
