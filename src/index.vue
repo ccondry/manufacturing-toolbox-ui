@@ -14,11 +14,11 @@
         <!-- welcome -->
         <welcome />
 
-        <!-- upload Agent Answers KB -->
-        <upload-agent-answers v-if="isLoggedIn" />
+        <!-- qr -->
+        <qr v-if="isLoggedIn" />
 
-        <!-- current Agent Answers KB -->
-        <current-agent-answers v-if="isLoggedIn" />
+        <!-- agents -->
+        <agents v-if="isLoggedIn" />
 
         <!-- Copyright and version footer -->
         <app-footer />
@@ -31,17 +31,17 @@
 import { mapActions, mapGetters } from 'vuex'
 import Navbar from './components/navbar'
 import Welcome from './components/welcome'
-import UploadAgentAnswers from './components/upload-agent-answers'
-import CurrentAgentAnswers from './components/current-agent-answers'
+import Agents from './components/agents'
+import Qr from './components/qr'
 import AppFooter from './components/app-footer'
 
 export default {
   components: {
     Navbar,
     Welcome,
-    UploadAgentAnswers,
-    CurrentAgentAnswers,
-    AppFooter
+    Agents,
+    AppFooter,
+    Qr
   },
 
   computed: {

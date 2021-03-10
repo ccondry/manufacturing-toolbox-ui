@@ -1,11 +1,11 @@
-import answers from './answers'
+import agents from './agents'
 import app from './app'
 import endpoints from './endpoints'
 import fetch from './fetch'
 import user from './user'
 
 export default {
-  answers,
+  agents,
   app,
   endpoints,
   fetch,
