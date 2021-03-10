@@ -14,11 +14,11 @@
         <!-- welcome -->
         <welcome />
 
-        <!-- qr -->
-        <qr v-if="isLoggedIn" />
-
         <!-- agents -->
         <agents v-if="isLoggedIn" />
+
+        <!-- qr -->
+        <qr v-if="isLoggedIn" />
 
         <!-- Copyright and version footer -->
         <app-footer />
