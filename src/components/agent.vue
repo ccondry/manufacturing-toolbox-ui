@@ -12,7 +12,11 @@
         {{ agent.description }}
       </p>
 
-      <img :src="agent.picture" style="width: 128px; height: 128px;">
+      <img
+      :src="agent.picture"
+      style="width: 128px; height: 128px;"
+      class="agent-profile"
+      >
 
       <p style="white-space: nowrap;">
         <strong>
@@ -73,3 +77,19 @@ export default {
   }
 }
 </script>
+
+<style>
+img.agent-profile {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 1000px;
+  border-top-left-radius: 1000px;
+  border-bottom-right-radius: 1000px;
+  border-bottom-left-radius: 1000px;
+}
+</style>
