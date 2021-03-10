@@ -18,8 +18,8 @@ export default {
 
   data () {
     return {
-      imageFolder: 'https://mm.cxdemo.net/static/images/cumulus/common',
-      loginDomain: 'cc1.dc-01.com'
+      imageFolder: 'https://mm-static.cxdemo.net/cumulus',
+      loginDomain: 'cb169.dc-05.com'
     }
   },
 
@@ -29,8 +29,8 @@ export default {
     ]),
     charles () {
       return {
-        picture: this.imageFolder + '/charles.png',
-        username: 'sjeffers' + this.jwtUser.id + '@' + this.loginDomain,
+        picture: this.imageFolder + '/cholland.png',
+        username: 'cholland' + this.jwtUser.id + '@' + this.loginDomain,
         password: 'C1sco12345!',
         name: 'Sandra Jefferson',
         role: 'Agent',
@@ -40,7 +40,7 @@ export default {
     operator () {
       return {
         picture: this.imageFolder + '/rick.png',
-        username: 'rbarrows' + this.jwtUser.id + '@' + this.loginDomain,
+        username: 'cholland' + this.jwtUser.id + '@' + this.loginDomain,
         password: 'C1sco12345!',
         name: 'Rick Barrows',
         role: 'Supervisor',
