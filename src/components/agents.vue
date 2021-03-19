@@ -31,8 +31,8 @@ export default {
       return {
         picture: this.imageFolder + '/cholland.png',
         username: 'cholland' + this.jwtUser.id + '@' + this.loginDomain,
-        password: 'C1sco12345!',
-        name: 'Sandra Jefferson',
+        password: 'dCloud123!',
+        name: 'Charles Holland',
         role: 'Agent',
         description: 'Agent'
       }
@@ -41,10 +41,10 @@ export default {
       return {
         picture: this.imageFolder + '/rick.png',
         username: 'cholland' + this.jwtUser.id + '@' + this.loginDomain,
-        password: 'C1sco12345!',
+        password: 'dCloud123!',
         name: 'Rick Barrows',
         role: 'Supervisor',
-        description: 'Supervisor'
+        description: 'Mobile Operator'
       }
     }
   }

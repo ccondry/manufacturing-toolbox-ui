@@ -5,7 +5,7 @@ const mutations = {
 }
 
 const getters = {
-  agentPortalUrl: () => 'test'
+  agentPortalUrl: () => 'https://manufacturing.cxdemo.net'
 }
 
 const actions = {

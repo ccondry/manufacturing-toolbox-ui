@@ -39,12 +39,12 @@
       style="white-space: nowrap;"
       >
         <strong>
-          Agent Desktop:
+          Manufacturing Portal:
           <a :href="agentPortalUrl" target="_blank">
             {{ agentPortalUrl }}
           </a>
         </strong>
-        <copy :value="agentPortalUrl" name="Agent Desktop URL" />
+        <copy :value="agentPortalUrl" name="Manufacturing Portal URL" />
       </p>
     </article>
   </div>

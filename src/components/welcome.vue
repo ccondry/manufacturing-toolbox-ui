@@ -2,8 +2,7 @@
   <panel :title="`Welcome ${jwtUser.firstName}!`" aria-id="welcome">
     <p>
       Welcome to the dCloud
-      <strong>Demo Configurations</strong>
-      Toolbox!
+      <strong>Cisco ISG Manufacturing Demo</strong>
     </p>
   </panel>
 </template>
