@@ -1,7 +1,7 @@
 {
   "name": "manufacturing-toolbox-ui",
   "description": "UI for the dCloud Manufacturnig Demo Toolbox",
-  "version": "2021.3.10",
+  "version": "2021.3.19",
   "author": "Coty Condry <ccondry@cisco.com>",
   "main": "dist/js/index.common.js",
   "unpkg": "dist/js/index.js",
