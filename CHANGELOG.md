@@ -3,6 +3,9 @@
 Version numbers are semver-compatible dates in YYYY.MM.DD-X format,
 where X is the revision number
 
+#2021.03.21
+I've changed email address to show cholland@domain.com instead of cholland0609@domain.com
+
 # 2021.3.19
 
 ### Features

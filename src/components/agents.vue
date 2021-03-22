@@ -30,7 +30,7 @@ export default {
     charles () {
       return {
         picture: this.imageFolder + '/cholland.png',
-        username: 'cholland' + this.jwtUser.id + '@' + this.loginDomain,
+        username: 'cholland' + '@' + this.loginDomain,
         password: 'dCloud123!',
         name: 'Charles Holland',
         role: 'Agent',
@@ -40,7 +40,7 @@ export default {
     operator () {
       return {
         picture: this.imageFolder + '/rick.png',
-        username: 'cholland' + this.jwtUser.id + '@' + this.loginDomain,
+        username: 'cholland' + '@' + this.loginDomain,
         password: 'dCloud123!',
         name: 'Rick Barrows',
         role: 'Supervisor',
